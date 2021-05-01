@@ -6,8 +6,4 @@ public class UserManager {
 		System.out.println(user.getName() +" added");
 		
 	}
-	
-
-	
-
 }

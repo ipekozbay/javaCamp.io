@@ -5,10 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		StudentManager studentManager = new StudentManager();
-
 		Student student = new Student();
 
-		student.setName("ipek özbay");
+		student.setName("ipek Ã¶zbay");
 		student.setId(1);
 		student.seteMail("blabla.com");
 		student.setHomework("work3");
@@ -24,7 +23,7 @@ public class Main {
 
 		Instructor instructor = new Instructor();
 
-		instructor.name = "engin demiroğ";
+		instructor.name = "engin demiroÃ°";
 		instructor.setCoursesOfTheInstructor("java / c# / pyhton");
 		instructor.id = 4;
 		instructor.eMail = "blaba2.com";
@@ -32,7 +31,5 @@ public class Main {
 		System.out.println(" adding instructor =>");
 
 		instructorManager.add(instructor);
-
 	}
-
 }

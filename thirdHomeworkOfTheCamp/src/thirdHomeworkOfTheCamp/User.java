@@ -2,7 +2,7 @@ package thirdHomeworkOfTheCamp;
 
 public class User {
 	
-     int id;
+         int id;
 	 String name;
 	 String eMail; 
 	
